@@ -5,9 +5,7 @@ Implementation of the report:
 
 for visual question answering task.
 
-![](network.png)
-
-
+![](https://hackmd.io/_uploads/HynzGUeba.png)
 > Please follow the provided documentation and instructions to use the code effectively for visual question answering tasks. If you have any questions or need assistance, feel free to refer to the documentation or reach out to us.
 
 ## Step 1. Download dataset & video-to-frame processing
