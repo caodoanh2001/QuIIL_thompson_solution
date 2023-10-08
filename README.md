@@ -38,7 +38,7 @@ PATH_TO_SAVE_FEATURES
 ```
 
 ## Step 2. Feature extraction
-As mentioned in the paper, we used VinVL pre-trained model for feature extraction. Features of each frame will be N object feature vectors, storing in the `*.npy` files. Please run the following script for feature extracion:
+In accordance with the paper's methodology, we employed the VinVL pre-trained model for feature extraction. These features, consisting of N object feature vectors for each frame, are stored in `*.npy` files. To perform feature extraction, please execute the following script:
 
 ```
 CUDA_VISIBLE_DEVICES=[gpu id] python feature_extraction.py \
