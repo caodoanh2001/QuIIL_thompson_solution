@@ -1,0 +1,15 @@
+What limb is injured?
+Is the patient intubated?
+Where is the catheter inserted?
+Is there bleeding?
+Has the bleeding stopped?
+Is the patient moving?
+Is the patient breathing?
+Is there a tourniquet?
+Is there an incision?
+Is there a chest tube?
+Are the patient and instruments secured?
+If a limb is missing which one?
+Is there mechanical ventilation?
+What is the position of the injury?
+If there was bleeding has it stopped?

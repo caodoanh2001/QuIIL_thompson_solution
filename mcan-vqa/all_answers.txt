@@ -1,0 +1,15 @@
+right arm, left arm, right leg, left leg, no limb is injured
+yes,no,can't identify
+upper limb,lower limb,no catheter is used
+yes,no
+yes,no,there is no bleeding
+yes,no,can't identify
+yes,no,can't identify
+yes,no
+yes,no
+yes,no
+yes,no,can't identify
+right arm,left arm,right leg,left leg,none
+yes,no,can't identify
+thorax,upper limb,lower limb,head,throat,abdomen,can't identify
+yes,no
