@@ -5,7 +5,7 @@ Implementation of the report:
 
 for visual question answering task.
 
-*Please follow the provided documentation and instructions to use the code effectively for visual question answering tasks. If you have any questions or need assistance, feel free to refer to the documentation or reach out to us.*
+> Please follow the provided documentation and instructions to use the code effectively for visual question answering tasks. If you have any questions or need assistance, feel free to refer to the documentation or reach out to us.
 
 ## Step 1. Download dataset & video-to-frame processing
 
@@ -54,6 +54,8 @@ PATH_TO_SAVE_FEATURES
 |__ *.npy
 ```
 
+> You may need the VinVL checkpoint (vinvl_vg_x152c4.pth), please download at this [link](https://drive.google.com/drive/folders/16khgvKF8c9xmv4TjmHzIq4Fp-TjXcGaj?usp=drive_link).
+
 ## Step 3. Inference
 
 Run the below script for generating output answers:
@@ -69,8 +71,8 @@ CUDA_VISIBLE_DEVICES=[gpu id] python inference_submit.py \
 
 * `PATH_TO_SAVE_FRAMES`: This argument represents the directory path where frames from step 1 will be stored.
 * `PATH_TO_SAVE_FEATURES`: Specify the directory path where the extracted features from step 2 are saved.
-* `PATH_TO_CHECKPOINT`: This argument should contain the checkpoint path. You can download the required checkpoint file from [here](link-to-download-checkpoint).
-* `submission_template_path`: This refers to the `*.json` file that stores questions per frame for testing videos. You can download the template from [here](link-to-download-template).
+* `PATH_TO_CHECKPOINT`: This argument should contain the checkpoint path. You can download the required checkpoint file from [here]([link-to-download-checkpoint](https://drive.google.com/drive/folders/16khgvKF8c9xmv4TjmHzIq4Fp-TjXcGaj?usp=sharing)).
+* `submission_template_path`: This refers to the `*.json` file that stores questions per frame for testing videos. It is `Test/Annotations/test_questions.json` provided by organizer.
 * `PATH_TO_SAVE_OUTPUT_ANSWERS`: This argument indicates the directory path where the generated `*.csv` file, containing answers per frame for testing videos, will be saved.
 
 The structure of generated `*.csv` file:
