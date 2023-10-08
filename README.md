@@ -89,3 +89,18 @@ CT1.json,0,Is there a tourniquet?,2,no
 CT1.json,0,Is there an incision?,1,yes
 CT1.json,0,Is there a chest tube?,2,no
 ```
+
+## Citation
+
+If any part of this code is used, please give appropriate citation to our paper. <br />
+
+BibTex entry: <br />
+```
+@article{quill_t3,
+  title={QuilL at T3 challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View},
+  author={Le Vuong, Trinh Thi and Bui C., Doanh and Kwak, Jin Tae},
+  pages={},
+  year={},
+  publisher={}
+}
+```
