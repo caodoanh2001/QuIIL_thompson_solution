@@ -37,16 +37,16 @@ def parse_args():
 
     parser.add_argument('--video_path',
                       help='test video path',
-                      default='/data3/doanhbc/thompson_data/Test/Videos/',
+                      default='./thompson_data/Test/Videos/',
                       type=str, required=True)
 
     parser.add_argument('--save_path',
                       help='path to save frames',
-                      default='/data3/doanhbc/thompson_data/thompson_test_vqa_frames/', type=str)
+                      default='./thompson_data/thompson_test_vqa_frames/', type=str)
     
     parser.add_argument('--test_question_json_path',
                       help='path to json file storing test questions',
-                      default='/data3/doanhbc/thompson_data/Test/Annotations/test_questions.json', type=str)
+                      default='./thompson_data/Test/Annotations/test_questions.json', type=str)
 
     args = parser.parse_args()
     return args
