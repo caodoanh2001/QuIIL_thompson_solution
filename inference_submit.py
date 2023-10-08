@@ -135,20 +135,20 @@ def parse_args():
 
     parser.add_argument('--path_test_video_frames',
                       help='test video frame path',
-                      default='/data3/doanhbc/thompson_data/thompson_test_vqa_frames/',
+                      default='./thompson_data/thompson_test_vqa_frames/',
                       type=str)
 
     parser.add_argument('--path_features',
                       help='path to save npy features',
-                      default='/data3/doanhbc/thompson_data/vinvl_thompson_test_features/', type=str)
+                      default='./thompson_data/vinvl_thompson_test_features/', type=str)
     
     parser.add_argument('--ckpt_path',
                       help='checkpoint path',
-                      default='/home/compu/doanhbc/thompson-vqa/mcan-vqa/ckpts/ckpt_66103430_crossatt/epoch10.pkl', type=str)
+                      default='./best_cpkt_vqa.pkl', type=str)
     
     parser.add_argument('--submission_template_path',
                       help='submission template path',
-                      default='/data3/doanhbc/thompson_data/Test/Annotations/test_questions.json', type=str)
+                      default='./thompson_data/Test/Annotations/test_questions.json', type=str)
 
     parser.add_argument('--out_path',
                       help='path to save output submission file',
