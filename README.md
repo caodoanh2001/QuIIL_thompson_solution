@@ -106,3 +106,9 @@ BibTex entry: <br />
   publisher={}
 }
 ```
+
+## Acknowledgement
+
+This repository is built based-on two below repositories:
+- [MCAN](https://github.com/MILVLG/mcan-vqa)
+- [Scene Graph Benchmark](https://github.com/microsoft/scene_graph_benchmark)
