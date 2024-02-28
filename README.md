@@ -1,7 +1,7 @@
 
 Implementation of the report:
 
-"QuilL at T3 challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View"
+"QuIIL at T3 challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View"
 
 for visual question answering task.
 
@@ -98,8 +98,8 @@ If any part of this code is used, please give appropriate citation to our paper.
 
 BibTex entry: <br />
 ```
-@article{quill_t3,
-  title={QuilL at T3 challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View},
+@article{quiil_t3,
+  title={QuIIL at T3 challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View},
   author={Le Vuong, Trinh Thi and Bui C., Doanh and Kwak, Jin Tae},
   pages={},
   year={},
