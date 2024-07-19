@@ -98,12 +98,14 @@ If any part of this code is used, please give appropriate citation to our paper.
 
 BibTex entry: <br />
 ```
-@article{quiil_t3,
-  title={QuIIL at T3 challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View},
-  author={Le Vuong, Trinh Thi and Bui C., Doanh and Kwak, Jin Tae},
-  pages={},
-  year={},
-  publisher={}
+@misc{vuong2024quiilt3challengeautomation,
+      title={QuIIL at T3 challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View}, 
+      author={Trinh T. L. Vuong and Doanh C. Bui and Jin Tae Kwak},
+      year={2024},
+      eprint={2407.13216},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.13216}, 
 }
 ```
 
